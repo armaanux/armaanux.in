@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+::selection {
+  color: black;
+  background: greenyellow;
+}
+
+@font-face {
+  font-family: 'FIRST';
+  src: url('./assets/fonts/FIRST-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'WaitingfortheSunrise';
+  src: url('./assets/fonts/WaitingfortheSunrise.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-waiting {
+  font-family: 'WaitingfortheSunrise', cursive;
+}
+
+.font-first {
+  font-family: 'FIRST', sans-serif;
+}
+
+
+
+
