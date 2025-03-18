@@ -81,7 +81,7 @@ export const Projects = () => {
         </div>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 sm:block columns-3 lg:gap-6 mx-auto space-y-4 lg:space-y-6">
-        {projects.map(({ image, name, description, time, casestudyLink, prototypeLink }) => (
+        {projects.map(({ image, name, description, time, casestudyLink }) => (
           <div
             key={name}
             className="bg-white/10 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
@@ -99,17 +99,9 @@ export const Projects = () => {
                   href={casestudyLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full flex flex-row justify-center items-center text-center bg-white hover:bg-[#ffffffb0] text-black py-2 px-4 rounded-lg transition-colors duration-200"
+                  className="w-full flex flex-row justify-center items-center text-center bg-white hover:bg-[#ffffffe3] text-black py-2 px-4 rounded-lg transition-colors duration-200"
                 >
                   Case Study
-                </a>
-                <a
-                  href={prototypeLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full border border-white text-white py-2 px-4 rounded-lg flex flex-row justify-center items-center text-center hover:bg-white hover:text-black transition-colors duration-200"
-                >
-                  View Prototype
                 </a>
               </div>
             </div>

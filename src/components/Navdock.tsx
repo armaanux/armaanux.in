@@ -14,13 +14,13 @@ export const Navdock = () => {
   ];
 
   return (
-    <nav className="bg-white/10 rounded-full w-fit text-xl flex flex-row justify-evenly gap-4 p-2">
+    <nav className="bg-white rounded-full w-fit text-xl flex flex-row justify-evenly gap-4 p-2">
       {navLinks.map((link) => (
         <NavLink
           key={link.name}
           to={link.path}
           className={({ isActive }: NavLinkClassNameProps) =>
-            `p-3 rounded-full text-white hover:bg-accent-foreground transition-colors duration-200 ${isActive ? "bg-accent-foreground" : ""
+            `p-3 rounded-full text-black hover:bg-blue-700 hover:text-white font-thin transition-colors duration-200 ${isActive ? "bg-blue-500 text-white" : ""
             }`
           }
         >

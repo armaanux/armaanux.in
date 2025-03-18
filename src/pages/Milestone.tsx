@@ -61,23 +61,23 @@ export const Milestone = () => {
       </div>
       <div className=" flex-col justify-start items-start gap-9 inline-flex">
         <div className="flex-col justify-start items-start gap-2 flex">
-          <div className="self-stretch text-[#abbdf2] text-[40px] font-waiting">Getting Started</div>
-          <div className="self-stretch text-[#b3b3b3] font-normal  leading-[33px]">I began by watching YouTube tutorials and taking Udemy courses. I experimented with everything—logos, PPTs, PDFs, and even book formatting—to learn what good design is all about.</div>
+          <div className="self-stretch text-[#abbdf2] text-[35px] font-waiting">Getting Started</div>
+          <div className="self-stretch text-[#b3b3b3] font-thin  leading-[33px]">I began by watching YouTube tutorials and taking Udemy courses. I experimented with everything—logos, PPTs, PDFs, and even book formatting—to learn what good design is all about.</div>
         </div>
         <div className="self-stretch h-[0px] border border-[#444444]"></div>
         <div className="flex-col justify-start items-start gap-2 flex">
-          <div className="self-stretch text-[#abbdf2] text-[40px] font-waiting">The Early Hustle</div>
-          <div className="self-stretch text-[#b3b3b3] font-normal leading-[33px]">Landing my first freelance project took two months of hard work. I sent out countless proposals, made plenty of changes, and learned from every mistake. Those early days were tough but taught me the value of sticking with it.</div>
+          <div className="self-stretch text-[#abbdf2] text-[35px] font-waiting">The Early Hustle</div>
+          <div className="self-stretch text-[#b3b3b3] font-thin leading-[33px]">Landing my first freelance project took two months of hard work. I sent out countless proposals, made plenty of changes, and learned from every mistake. Those early days were tough but taught me the value of sticking with it.</div>
         </div>
         <div className="self-stretch h-[0px] border border-[#444444]"></div>
         <div className="flex-col justify-start items-start gap-2 flex">
-          <div className="self-stretch text-[#abbdf2] text-[40px] font-waiting">Building Credibility</div>
-          <div className="self-stretch text-[#b3b3b3] font-normal leading-[33px]">With no reviews or past work, I jumped into Freelancer contests right from the start. Competing with thousands of designers pushed me to fix my mistakes and pick up new skills. In six months, I entered many contests and won at least 10, which helped build the credibility I needed to grow my profile.</div>
+          <div className="self-stretch text-[#abbdf2] text-[35px] font-waiting">Building Credibility</div>
+          <div className="self-stretch text-[#b3b3b3] font-thin leading-[33px]">With no reviews or past work, I jumped into Freelancer contests right from the start. Competing with thousands of designers pushed me to fix my mistakes and pick up new skills. In six months, I entered many contests and won at least 10, which helped build the credibility I needed to grow my profile.</div>
         </div>
         <div className="self-stretch h-[0px] border border-[#444444]"></div>
         <div className="flex-col justify-start items-start gap-2 flex">
-          <div className="self-stretch text-[#abbdf2] text-[40px] font-waiting">Where I Am Today</div>
-          <div className="self-stretch text-[#b3b3b3] font-normal leading-[33px]">Today, I'm a Verified and Preferred Freelancer on Freelancer.com, ranked in the Top 2% for UI design. Every project, contest, and bit of feedback has helped me improve. I'm still learning and excited about what comes next. <br />
+          <div className="self-stretch text-[#abbdf2] text-[35px] font-waiting">Where I Am Today</div>
+          <div className="self-stretch text-[#b3b3b3] font-thin leading-[33px]">Today, I'm a Verified and Preferred Freelancer on Freelancer.com, ranked in the Top 2% for UI design. Every project, contest, and bit of feedback has helped me improve. I'm still learning and excited about what comes next. <br />
             Thanks for being part of my journey—there's still a lot more to come!</div>
         </div>
       </div>
@@ -87,7 +87,7 @@ export const Milestone = () => {
       >
         <div className="flex-col justify-center items-center gap-10 flex py-10">
           <div className="font-first text-xl md:text-4xl">Testimonials</div>
-          <div className="text-[#B3B3B3]">Here's what some awesome people I've worked with in the past have to say about me!
+          <div className="text-[#B3B3B3] font-thin">Here's what some awesome people I've worked with in the past have to say about me!
           </div>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 sm:block columns-2 lg:gap-6 mx-auto space-y-4 lg:space-y-6">
@@ -98,7 +98,7 @@ export const Milestone = () => {
                 className=" md:break-inside-avoid overflow-hidden bg-white/20 p-5 rounded-md space-y-2"
               >
                 <div className="pb-2 flex flex-row gap-1"><img src={star} /><img src={star} /><img src={star} /><img src={star} /><img src={star} /></div>
-                <div className="pb-2">{comment}</div>
+                <div className="pb-2 font-thin">{comment}</div>
                 <div className="flex flex-row justify-between items-center gap-4">
                     <div className="text-lg p-0">{name}</div>
                     <img src={userName} />
