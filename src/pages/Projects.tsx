@@ -16,8 +16,7 @@ const projects: ProjectsProps[] = [
     description:
       "Redesigning the Freelancer app to create a modern, seamless experience that's easier to navigate and tailored to user needs.",
     time: "34",
-    casestudyLink: "https://www.redgifs.com",
-    prototypeLink: "https://www.redgifs.com",
+    casestudyLink: "",
   },
   {
     image: projectimg1,
@@ -25,8 +24,7 @@ const projects: ProjectsProps[] = [
     description:
       "Redesigning the Freelancer app to create a modern, seamless experience that's easier to navigate and tailored to user needs.",
     time: "34",
-    casestudyLink: "https://www.redgifs.com",
-    prototypeLink: "https://www.redgifs.com",
+    casestudyLink: "",
   },
   {
     image: projectimg1,
@@ -34,8 +32,7 @@ const projects: ProjectsProps[] = [
     description:
       "Redesigning the Freelancer app to create a modern, seamless experience that's easier to navigate and tailored to user needs.",
     time: "34",
-    casestudyLink: "https://www.redgifs.com",
-    prototypeLink: "https://www.redgifs.com",
+    casestudyLink: "",
   },
   {
     image: projectimg1,
@@ -43,8 +40,7 @@ const projects: ProjectsProps[] = [
     description:
       "Redesigning the Freelancer app to create a modern, seamless experience that's easier to navigate and tailored to user needs.",
     time: "34",
-    casestudyLink: "https://www.redgifs.com",
-    prototypeLink: "https://www.redgifs.com",
+    casestudyLink: "",
   },
   {
     image: projectimg1,
@@ -52,8 +48,7 @@ const projects: ProjectsProps[] = [
     description:
       "Redesigning the Freelancer app to create a modern, seamless experience that's easier to navigate and tailored to user needs.",
     time: "34",
-    casestudyLink: "https://www.redgifs.com",
-    prototypeLink: "https://www.redgifs.com",
+    casestudyLink: "",
   },
   {
     image: projectimg1,
@@ -61,8 +56,7 @@ const projects: ProjectsProps[] = [
     description:
       "Redesigning the Freelancer app to create a modern, seamless experience that's easier to navigate and tailored to user needs.",
     time: "34",
-    casestudyLink: "https://www.redgifs.com",
-    prototypeLink: "https://www.redgifs.com",
+    casestudyLink: "",
   },
 ];
 
@@ -70,11 +64,11 @@ export const Projects = () => {
   return (
     <section
       id="testimonials"
-      className="w-full px-5 md:px-20 space-y-5 container py-14 pt-0 sm:py-32 text-white"
+      className="w-full px-5 md:px-20 space-y-12 container py-10 text-white"
     >
-      <div className="flex-col justify-center items-center gap-10 flex py-10">
+      <div className="flex-col justify-center items-center gap-6 flex pb-10">
           <div className="font-first text-xl md:text-4xl"> Projects</div>
-          <div className="text-[#B3B3B3]">
+          <div className="text-[#B3B3B3] text-lg">
         Here's a glimpse of the work I'm proud of - projects that challenged me,
         inspired me, and made me a better designer.
           </div>

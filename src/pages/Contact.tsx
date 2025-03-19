@@ -47,23 +47,23 @@ export const Contact = () => {
     return (
         <section
             id="contact"
-            className="w-full px-5 md:px-20 space-y-5 container py-20 pt-0 relative text-white"
+            className="w-full px-5 md:px-20 space-y-5 container py-10 relative text-white"
         >
-            <div className="flex-col justify-center items-center gap-10 flex">
+            <div className="flex-col justify-center items-center gap-6 flex pb-10">
                 <div className="font-first text-xl md:text-4xl">Contact me</div>
-                <div className="text-[#B3B3B3]">
+                <div className="text-[#B3B3B3] text-lg">
                     Got a project in mind or just want to say hello? Feel free to reach out.
                     I'd love to hear from you :)
                 </div>
             </div>
-            <form onSubmit={handleSubmit} className="flex flex-col w-full gap-4">
+            <form onSubmit={handleSubmit} className="flex flex-col w-full gap-4 px-24">
                 <div className="w-full flex flex-col gap-2">
                     <label htmlFor="name">Name</label>
                     <input
                         type="text"
                         id="name"
                         placeholder="Enter your full name"
-                        className="bg-transparent border-2 border-white p-3 rounded focus:outline-none focus:border-gray-600 transition-all"
+                        className="bg-[#11111140] border-2 border-white/50 p-3 rounded focus:outline-none focus:border-gray-600 transition-all"
                         value={name}
                         onChange={(e) => setName(e.target.value)}
                         required
@@ -75,7 +75,7 @@ export const Contact = () => {
                         type="email"
                         id="email"
                         placeholder="Enter your email address"
-                        className="bg-transparent border-2 border-white p-3 rounded focus:outline-none focus:border-gray-600 transition-all"
+                        className="bg-[#11111140] border-2 border-white/50 p-3 rounded focus:outline-none focus:border-gray-600 transition-all"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         required
@@ -87,7 +87,7 @@ export const Contact = () => {
                         id="message"
                         rows={6}
                         placeholder="Tell me about your project or drop a quick message..."
-                        className="bg-transparent border-2 border-white p-3 rounded resize-none focus:outline-none focus:border-gray-600 transition-all"
+                        className="bg-[#11111140] border-2 border-white/50 p-3 rounded resize-none focus:outline-none focus:border-gray-600 transition-all"
                         value={message}
                         onChange={(e) => setMessage(e.target.value)}
                         required

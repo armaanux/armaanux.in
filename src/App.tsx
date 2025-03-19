@@ -4,8 +4,9 @@ import { About } from "./components/About";
 import { Hero } from "./components/Hero";
 import Layout from "./components/Layout";
 import { Projects } from "./pages/Projects";
-import { Milestone } from "./pages/Milestone";
+import { Milestones } from "./pages/Milestones";
 import { Contact } from "./pages/Contact";
+import { Blogs } from "./pages/Blogs";
 
 function App() {
   return (
@@ -21,8 +22,9 @@ function App() {
             }
           />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/milestone" element={<Milestone />} />
+          <Route path="/milestones" element={<Milestones />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/blogs" element={<Blogs />} />
       </Routes>
       </Layout>
     </Router>

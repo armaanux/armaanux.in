@@ -9,18 +9,19 @@ export const Navdock = () => {
   const navLinks = [
     { name: "Home", path: "/" },
     { name: "Projects", path: "/projects" },
-    { name: "Milestone", path: "/milestone" },
+    { name: "Milestones", path: "/milestones" },
+    { name: "Blogs", path: "/blogs" },
     { name: "Contact", path: "/contact" },
   ];
 
   return (
-    <nav className="bg-white rounded-full w-fit text-xl flex flex-row justify-evenly gap-4 p-2">
+    <nav className="bg-white rounded-full w-fit text-xl gap-1 flex flex-row justify-evenly p-2">
       {navLinks.map((link) => (
         <NavLink
           key={link.name}
           to={link.path}
           className={({ isActive }: NavLinkClassNameProps) =>
-            `p-3 rounded-full text-black hover:bg-blue-700 hover:text-white font-thin transition-colors duration-200 ${isActive ? "bg-blue-500 text-white" : ""
+            `px-4 py-2 rounded-full text-black hover:bg-black hover:text-white font-normal transition-colors duration-200 ${isActive ? "bg-blue-700 text-white" : ""
             }`
           }
         >

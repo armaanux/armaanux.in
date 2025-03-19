@@ -6,15 +6,18 @@ export const About = () => {
     <section id="about" className="py-14 pt-0 sm:py-32 px-10 md:px-48 flex flex-col items-center justify-center text-white">
       <div className='flex flex-col-reverse md:flex-row gap-10 items-center justify-center py-28'>
         <div className="space-y-6">
-          <div className="space-y-6 text-justify font-thin">
+          <div className="space-y-6 text-justify font-[350]">
             <p>
-              Hey, I'm Armaan, a 22-year-old UI/UX Designer based in Lucknow, India. My job? To create designs that not only look great but actually work because let's be real, what's the point of something pretty if it doesn't function? Whether it's a website, an app, a logo, or a complete brand makeover, I make sure every design is a perfect balance of form and function.
+              I'm Armaan Parvez, a 22-year-old UI/UX Designer based in Lucknow, India. My job? To create designs that not only look great but actually work because let's be real, what's the point of something pretty if it doesn't function? Whether it's a website, an app, a logo, or a complete brand makeover, I make sure every design is a perfect balance of form and function.
             </p>
             <p>
-              I've been designing for 4 years, and while I'm also surviving my 4th year of Computer Science at BBDEC Lucknow, it's design that gets me out of bed in the morning (or at least keeps me from hitting snooze for the 10th time). Freelancing lets me dive into exciting projects, challenge myself, and learn something new every time plus, it's a great excuse to avoid that 'real job' life.
+            I've been designing for 4 years, and while I'm also surviving my 4th year of Computer Science at BBDEC Lucknow, it's design that gets me out of bed in the morning (or at least keeps me from hitting snooze for the 10th time). Freelancing lets me dive into exciting projects, challenge myself, and learn something new every time plus, it's a great excuse to avoid that 'real job' life.
             </p>
             <p>
-              I've done it all - logos, apps, websites but my sweet spot is creating designs that are clean, pixel-perfect, and user-friendly. Because it's not just about making things look good; it's about making sure they actually work for the people using them.
+            I've done it all - logos, apps, websites but my sweet spot is creating designs that are clean, pixel-perfect, and user-friendly. Because it's not just about making things look good, it's about making sure they actually work for the people using them.
+            </p>
+
+            <p>
               When I'm not designing, you'll probably find me binge-watching movies and shows, gaming (because who can resist?), or traveling to new places.
             </p>
             <p>
@@ -26,47 +29,47 @@ export const About = () => {
 
       </div>
       <hr className="border-dotted border-t-2 border-gray-400 my-20 w-5/12" />
-      <div className="">
-        <div className="flex-col justify-center items-center gap-10 flex py-10">
+      <div className="space-y-12">
+        <div className="flex-col justify-center items-center gap-6 flex py-10">
           <div className="font-first text-xl md:text-4xl">SERVICES</div>
-          <div className="text-[#B3B3B3] font-thin">
+          <div className="text-[#B3B3B3] text-lg">
             I offer a range of design solutions from sleek UI/UX to in-depth user research.
           </div>
         </div>
         <div className="grid md:grid-cols-3 gap-5 justify-center items-start">
-          <ServiceCard icon={SVGIcons.uiux} title="User Interface & Experience" description="I blend art and function to craft interfaces that look stunning and feel intuitive. Every design is a mix of creativity and usability, ensuring your users have a delightful experience." />
-          <ServiceCard icon={SVGIcons.wireframing} title="Wireframing & Prototyping" description="Before the final masterpiece, we start with a blueprint. I create clear, detailed wireframes & interactive prototypes that map out the user journey & set the stage for flawless design." />
-          <ServiceCard icon={SVGIcons.redesign} title="Website & App Redesign" description="Time for a digital refresh? I revamp outdated websites and apps with modern aesthetics and smoother navigation, transforming them into engaging, user-friendly platforms." />
-          <ServiceCard icon={SVGIcons.research} title="User Research & Testing" description="Know your audience inside and out. I dive deep into user insights and testing, fine-tuning designs based on real feedback to ensure every element hits the mark." />
-          <ServiceCard icon={SVGIcons.motion} title="Motion Design & Interaction" description="Add a little sparkle to your digital experience. I bring designs to life with dynamic animations and interactive elements that captivate users and elevate every click and scroll." />
+          <ServiceCard icon={SVGIcons.uiux} title="User Interface and Experience" description="I blend art and function to craft interfaces that look stunning and feel intuitive. Every design is a mix of creativity and usability, ensuring your users have a delightful experience." />
+          <ServiceCard icon={SVGIcons.wireframing} title="Wireframing and Prototyping" description="Before the final masterpiece, we start with a blueprint. I create clear, detailed wireframes & interactive prototypes that map out the user journey & set the stage for flawless design." />
+          <ServiceCard icon={SVGIcons.redesign} title="Website and App Redesign" description="Time for a digital refresh? I revamp outdated websites and apps with modern aesthetics and smoother navigation, transforming them into engaging, user-friendly platforms." />
+          <ServiceCard icon={SVGIcons.research} title="User Research and Testing" description="Know your audience inside and out. I dive deep into user insights and testing, fine-tuning designs based on real feedback to ensure every element hits the mark." />
+          <ServiceCard icon={SVGIcons.motion} title="Motion Design and Interaction" description="Add a little sparkle to your digital experience. I bring designs to life with dynamic animations and interactive elements that captivate users and elevate every click and scroll." />
         </div>
       </div>
       <hr className="border-dotted border-t-2 border-gray-400 my-20 w-5/12" />
-      <div className=' relative text-white'>
-        <div className="flex-col justify-center items-center gap-10 flex py-10">
+      <div className=' relative text-white space-y-12'>
+        <div className="flex-col justify-center items-center gap-6 flex py-10">
           <div className="font-first text-xl md:text-4xl">How I work?</div>
-          <div className="text-[#B3B3B3]">My design process? Simple, yet powerful ~
+          <div className="text-[#B3B3B3] text-lg">My design process? Simple, yet powerful ~
           </div>
         </div>
         <div className=" flex-col justify-start items-start gap-9 inline-flex ">
           <div className="flex-col justify-start items-start gap-2 flex">
             <div className="self-stretch text-[#abbdf2] text-[35px] font-waiting">Listen</div>
-            <div className="self-stretch text-[#b3b3b3]  leading-[33px] font-thin">For me, every great design starts with a conversation. I'll take the time to really understand your vision, goals, and what you need. It's not about rushing in. It's about figuring out how to make your project shine (and maybe doing a little doodling in my sketchbook if inspiration hits).</div>
+            <div className="self-stretch text-[#ffff]  leading-[33px] font-[350]">For me, every great design starts with a conversation. I'll take the time to really understand your vision, goals, and what you need. It's not about rushing in. It's about figuring out how to make your project shine (and maybe doing a little doodling in my sketchbook if inspiration hits).</div>
           </div>
           <div className="self-stretch h-[0px] border border-[#444444]"></div>
           <div className="flex-col justify-start items-start gap-2 flex">
             <div className="self-stretch text-[#abbdf2] text-[35px] font-waiting">Brainstorm</div>
-            <div className="self-stretch text-[#b3b3b3] font-thin leading-[33px]">Before jumping into the digital side of things, I grab my trusty sketchbook. This is where rough ideas start to take shape, whether it's wireframes or logo concepts. Honestly, my sketchbook doesn't get much attention otherwise, so it's a special moment for both of us.</div>
+            <div className="self-stretch text-[#ffff] font-[350] leading-[33px]">Before jumping into the digital side of things, I grab my trusty sketchbook. This is where rough ideas start to take shape, whether it's wireframes or logo concepts. Honestly, my sketchbook doesn't get much attention otherwise, so it's a special moment for both of us.</div>
           </div>
           <div className="self-stretch h-[0px] border border-[#444444]"></div>
           <div className="flex-col justify-start items-start gap-2 flex">
             <div className="self-stretch text-[#abbdf2] text-[35px] font-waiting">Design</div>
-            <div className="self-stretch text-[#b3b3b3] font-thin leading-[33px]">With the sketches as a guide, I bring your ideas to life on screen. This is where the magic happens - designs take form, feedback sharpens them, and together, we create something that's not only beautiful but also works perfectly.</div>
+            <div className="self-stretch text-[#ffff] font-[350] leading-[33px]">With the sketches as a guide, I bring your ideas to life on screen. This is where the magic happens - designs take form, feedback sharpens them, and together, we create something that's not only beautiful but also works perfectly.</div>
           </div>
           <div className="self-stretch h-[0px] border border-[#444444]"></div>
           <div className="flex-col justify-start items-start gap-2 flex">
             <div className="self-stretch text-[#abbdf2] text-[35px] font-waiting">Deliver</div>
-            <div className="self-stretch text-[#b3b3b3] font-thin leading-[33px]">Once you're excited about the result, I wrap everything up and send it your way. There's nothing better than seeing a happy client (and maybe treating myself to a coffee after a job well done).</div>
+            <div className="self-stretch text-[#ffff] font-[350] leading-[33px]">Once you're excited about the result, I wrap everything up and send it your way. There's nothing better than seeing a happy client (and maybe treating myself to a coffee after a job well done).</div>
           </div>
         </div>
       </div>
@@ -152,12 +155,12 @@ interface ServiceCardProps {
 
 // ServiceCard Component with TypeScript types
 const ServiceCard: React.FC<ServiceCardProps> = ({ icon, title, description }) => (
-  <div className=" p-6 md:p-10 bg-black/25 rounded-[10px]  shadow-[0px_10px_36px_0px_rgba(0,0,0,0.16)] border border-[#222222] flex flex-col justify-start items-start gap-6 md:gap-8 h-full w-full">
+  <div className=" p-6 md:p-8 bg-black/25 rounded-[10px]  shadow-[0px_10px_36px_0px_rgba(0,0,0,0.16)] border border-[#222222] flex flex-col justify-start items-start gap-4 md:gap-6 h-full w-full">
     <div className="self-stretch justify-start items-center gap-5 inline-flex">
       <div data-svg-wrapper>{icon}</div>
       <div className="text-[#abbdf2] text-lg md:text-xl font-normal leading-7">{title}</div>
     </div>
-    <div className="self-stretch text-[#b3b3b3] font-thin leading-[25px] md:leading-[30px]">
+    <div className="self-stretch text-[#ffff] font-normal">
       {description}
     </div>
   </div>
@@ -169,7 +172,7 @@ export default function Services() {
       <div className="flex-col justify-start items-center gap-[60px] flex">
         <div className="h-[117px] flex-col justify-center items-center gap-10 flex">
           <div className="text-white text-[40px] font-normal font-['FIRST'] uppercase">SERVICES</div>
-          <div className="self-stretch text-center text-[#b3b3b3] text-[22px] font-thin font-['Urbanist'] leading-[33px]">
+          <div className="self-stretch text-center text-[#b3b3b3] text-[22px] font-[350] font-['Urbanist'] leading-[33px]">
             I offer a range of design solutions from sleek UI/UX to in-depth user research.
           </div>
         </div>
