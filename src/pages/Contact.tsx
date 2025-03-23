@@ -62,7 +62,7 @@ export const Contact = () => {
                     <input
                         type="text"
                         id="name"
-                        placeholder="Enter your full name"
+                        placeholder="What's your name, awesome human?"
                         className="bg-[#11111140] border-2 border-white/50 p-3 rounded focus:outline-none focus:border-gray-600 transition-all"
                         value={name}
                         onChange={(e) => setName(e.target.value)}
@@ -74,7 +74,7 @@ export const Contact = () => {
                     <input
                         type="email"
                         id="email"
-                        placeholder="Enter your email address"
+                        placeholder="Where can I slide into your inbox? (Professionally, of course!)"
                         className="bg-[#11111140] border-2 border-white/50 p-3 rounded focus:outline-none focus:border-gray-600 transition-all"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
@@ -86,7 +86,7 @@ export const Contact = () => {
                     <textarea
                         id="message"
                         rows={6}
-                        placeholder="Tell me about your project or drop a quick message..."
+                        placeholder="How can I help you?"
                         className="bg-[#11111140] border-2 border-white/50 p-3 rounded resize-none focus:outline-none focus:border-gray-600 transition-all"
                         value={message}
                         onChange={(e) => setMessage(e.target.value)}

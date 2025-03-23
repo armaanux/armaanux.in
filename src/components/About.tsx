@@ -4,7 +4,7 @@ import avatar from '../assets/avatar.png';
 export const About = () => {
   return (
     <section id="about" className="py-14 pt-0 sm:py-32 px-10 md:px-48 flex flex-col items-center justify-center text-white">
-      <div className='flex flex-col-reverse md:flex-row gap-10 items-center justify-center py-28'>
+      <div className='flex flex-col-reverse md:flex-row gap-10 items-center justify-center'>
         <div className="space-y-6">
           <div className="space-y-6 text-justify font-[350]">
             <p>
@@ -25,7 +25,7 @@ export const About = () => {
           </div>
         </div>
 
-        <img src={avatar} alt="Armaan Parvez" width={300} />
+        <img src={avatar} alt="Armaan Parvez" width={300} className='animate-floating' />
 
       </div>
       <hr className="border-dotted border-t-2 border-gray-400 my-20 w-5/12" />
@@ -36,7 +36,7 @@ export const About = () => {
             I offer a range of design solutions from sleek UI/UX to in-depth user research.
           </div>
         </div>
-        <div className="grid md:grid-cols-3 gap-5 justify-center items-start">
+        <div className="grid md:grid-cols-3 gap-5 justify-self-center">
           <ServiceCard icon={SVGIcons.uiux} title="User Interface and Experience" description="I blend art and function to craft interfaces that look stunning and feel intuitive. Every design is a mix of creativity and usability, ensuring your users have a delightful experience." />
           <ServiceCard icon={SVGIcons.wireframing} title="Wireframing and Prototyping" description="Before the final masterpiece, we start with a blueprint. I create clear, detailed wireframes & interactive prototypes that map out the user journey & set the stage for flawless design." />
           <ServiceCard icon={SVGIcons.redesign} title="Website and App Redesign" description="Time for a digital refresh? I revamp outdated websites and apps with modern aesthetics and smoother navigation, transforming them into engaging, user-friendly platforms." />

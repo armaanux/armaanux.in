@@ -20,7 +20,11 @@ type NavLinkClassNameProps = {
   isActive: boolean;
 };
 
-export const Navbar = () => {
+interface NavbarProps {
+  quote: string;
+}
+
+export const Navbar = ({ quote }: NavbarProps) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -38,8 +42,8 @@ export const Navbar = () => {
     <navbar id="navbar">
       <section className="flex md:flex-row-reverse bg-transparent justify-between items-center px-4 md:px-14 py-10">
         {/* Left Side: Quote */}
-        <h3 className="text-white text-sm md:text-base">
-          Designed by me, admired by you!
+        <h3 className="text-white text-sm md:text-base w-64">
+          {quote}
         </h3>
 
         {/* Middle: Available for Work */}

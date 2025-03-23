@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <Layout>
-      <Routes>
+        <Routes>
           <Route path="/" element=
             {
               <>
@@ -25,7 +25,7 @@ function App() {
           <Route path="/milestones" element={<Milestones />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blogs" element={<Blogs />} />
-      </Routes>
+        </Routes>
       </Layout>
     </Router>
 

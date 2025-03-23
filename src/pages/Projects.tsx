@@ -74,7 +74,7 @@ export const Projects = () => {
           </div>
         </div>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-4 sm:block columns-3 lg:gap-6 mx-auto space-y-4 lg:space-y-6">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 sm:block columns-3 lg:gap-6 mx-24 space-y-4 lg:space-y-6">
         {projects.map(({ image, name, description, time, casestudyLink }) => (
           <div
             key={name}
