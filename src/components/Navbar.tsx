@@ -34,7 +34,8 @@ export const Navbar = ({ quote }: NavbarProps) => {
   const navLinks = [
     { name: "Home", path: "/" },
     { name: "Projects", path: "/projects" },
-    { name: "Milestone", path: "/milestone" },
+    { name: "Milestones", path: "/milestones" },
+    { name: "Blogs", path: "/blogs" },
     { name: "Contact", path: "/contact" },
   ];
 

@@ -51,12 +51,12 @@ export const Contact = () => {
         >
             <div className="flex-col justify-center items-center gap-6 flex pb-10">
                 <div className="font-first text-xl md:text-4xl">Contact me</div>
-                <div className="text-[#B3B3B3] text-lg">
+                <div className="text-[#B3B3B3] text-lg text-center">
                     Got a project in mind or just want to say hello? Feel free to reach out.
                     I'd love to hear from you :)
                 </div>
             </div>
-            <form onSubmit={handleSubmit} className="flex flex-col w-full gap-4 px-24">
+            <form onSubmit={handleSubmit} className="flex flex-col w-full gap-4 md:px-24">
                 <div className="w-full flex flex-col gap-2">
                     <label htmlFor="name">Name</label>
                     <input

@@ -6,7 +6,7 @@ import heroimg from "@/assets/hero_hexagon.png"
 export const Hero = () => {
   return (
     <>
-      <section className="flex flex-row items-center justify-center px-24">
+      <section className="flex flex-col md:flex-row items-center justify-center px-24">
         <img src={heroimg} alt="" />
         <div className="flex flex-col items-start justify-center">
           <p className="text-xl font-normal md:text-2xl text-[#abbdf2] md:w-10/12">
@@ -17,7 +17,7 @@ export const Hero = () => {
               UI/UX DESIGNER
             </h1>
           </main>
-          <p className=" text-xl md:text-xl py-3 pr-4 md:text-nowrap text-[#cccccc] bg-gradient-to-r from-transparent to-white/10 rounded-full font-normal">
+          <p className=" text-sm md:text-xl py-3 pr-4 md:text-nowrap text-[#cccccc] bg-gradient-to-r from-transparent to-white/10 rounded-full font-normal">
             I design intuitive, user-friendly digital experiences by turning complex ideas into simple solutions.
           </p>
         </div>

@@ -3,7 +3,7 @@ import avatar from '../assets/avatar.png';
 // import { Testimonials } from './Testimonials';
 export const About = () => {
   return (
-    <section id="about" className="py-14 pt-0 sm:py-32 px-10 md:px-48 flex flex-col items-center justify-center text-white">
+    <section id="about" className="py-14 pt-16 md:pt-0 sm:py-32 px-10 md:px-48 flex flex-col items-center justify-center text-white">
       <div className='flex flex-col-reverse md:flex-row gap-10 items-center justify-center'>
         <div className="space-y-6">
           <div className="space-y-6 text-justify font-[350]">
@@ -32,7 +32,7 @@ export const About = () => {
       <div className="space-y-12">
         <div className="flex-col justify-center items-center gap-6 flex py-10">
           <div className="font-first text-xl md:text-4xl">SERVICES</div>
-          <div className="text-[#B3B3B3] text-lg">
+          <div className="text-[#B3B3B3] text-lg text-center">
             I offer a range of design solutions from sleek UI/UX to in-depth user research.
           </div>
         </div>
@@ -46,30 +46,30 @@ export const About = () => {
       </div>
       <hr className="border-dotted border-t-2 border-gray-400 my-20 w-5/12" />
       <div className=' relative text-white space-y-12'>
-        <div className="flex-col justify-center items-center gap-6 flex py-10">
+        <div className="flex-col justify-center items-center gap-6 flex md:py-10">
           <div className="font-first text-xl md:text-4xl">How I work?</div>
-          <div className="text-[#B3B3B3] text-lg">My design process? Simple, yet powerful ~
+          <div className="text-[#B3B3B3] text-lg text-center">My design process? Simple, yet powerful ~
           </div>
         </div>
-        <div className=" flex-col justify-start items-start gap-9 inline-flex ">
+        <div className=" flex-col justify-start items-start gap-14 inline-flex ">
           <div className="flex-col justify-start items-start gap-2 flex">
-            <div className="self-stretch text-[#abbdf2] text-[35px] font-waiting">Listen</div>
-            <div className="self-stretch text-[#ffff]  leading-[33px] font-[350]">For me, every great design starts with a conversation. I'll take the time to really understand your vision, goals, and what you need. It's not about rushing in. It's about figuring out how to make your project shine (and maybe doing a little doodling in my sketchbook if inspiration hits).</div>
+            <div className="self-stretch text-[#abbdf2] text-2xl md:text-[35px] font-waiting">Listen</div>
+            <div className="self-stretch text-[#ffff] font-[350]">For me, every great design starts with a conversation. I'll take the time to really understand your vision, goals, and what you need. It's not about rushing in. It's about figuring out how to make your project shine (and maybe doing a little doodling in my sketchbook if inspiration hits).</div>
           </div>
           <div className="self-stretch h-[0px] border border-[#444444]"></div>
           <div className="flex-col justify-start items-start gap-2 flex">
-            <div className="self-stretch text-[#abbdf2] text-[35px] font-waiting">Brainstorm</div>
-            <div className="self-stretch text-[#ffff] font-[350] leading-[33px]">Before jumping into the digital side of things, I grab my trusty sketchbook. This is where rough ideas start to take shape, whether it's wireframes or logo concepts. Honestly, my sketchbook doesn't get much attention otherwise, so it's a special moment for both of us.</div>
+            <div className="self-stretch text-[#abbdf2] text-2xl md:text-[35px] font-waiting">Brainstorm</div>
+            <div className="self-stretch text-[#ffff] font-[350]">Before jumping into the digital side of things, I grab my trusty sketchbook. This is where rough ideas start to take shape, whether it's wireframes or logo concepts. Honestly, my sketchbook doesn't get much attention otherwise, so it's a special moment for both of us.</div>
           </div>
           <div className="self-stretch h-[0px] border border-[#444444]"></div>
           <div className="flex-col justify-start items-start gap-2 flex">
-            <div className="self-stretch text-[#abbdf2] text-[35px] font-waiting">Design</div>
-            <div className="self-stretch text-[#ffff] font-[350] leading-[33px]">With the sketches as a guide, I bring your ideas to life on screen. This is where the magic happens - designs take form, feedback sharpens them, and together, we create something that's not only beautiful but also works perfectly.</div>
+            <div className="self-stretch text-[#abbdf2] text-2xl md:text-[35px] font-waiting">Design</div>
+            <div className="self-stretch text-[#ffff] font-[350] ">With the sketches as a guide, I bring your ideas to life on screen. This is where the magic happens - designs take form, feedback sharpens them, and together, we create something that's not only beautiful but also works perfectly.</div>
           </div>
           <div className="self-stretch h-[0px] border border-[#444444]"></div>
           <div className="flex-col justify-start items-start gap-2 flex">
-            <div className="self-stretch text-[#abbdf2] text-[35px] font-waiting">Deliver</div>
-            <div className="self-stretch text-[#ffff] font-[350] leading-[33px]">Once you're excited about the result, I wrap everything up and send it your way. There's nothing better than seeing a happy client (and maybe treating myself to a coffee after a job well done).</div>
+            <div className="self-stretch text-[#abbdf2] text-2xl md:text-[35px] font-waiting">Deliver</div>
+            <div className="self-stretch text-[#ffff] font-[350] ">Once you're excited about the result, I wrap everything up and send it your way. There's nothing better than seeing a happy client (and maybe treating myself to a coffee after a job well done).</div>
           </div>
         </div>
       </div>

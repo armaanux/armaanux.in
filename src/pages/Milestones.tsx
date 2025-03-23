@@ -55,28 +55,28 @@ export const Milestones = () => {
     <div className='relative text-white px-5 md:px-48 space-y-12'>
       <div className="flex-col justify-center items-center gap-6 flex py-10">
         <div className="font-first text-xl md:text-4xl">Milestones</div>
-        <div className="text-[#B3B3B3] text-lg">My design journey was a mix of trial, error, and a whole lot of learning. Here's how it really went down.
+        <div className="text-[#B3B3B3] text-lg text-center">My design journey was a mix of trial, error, and a whole lot of learning. Here's how it really went down.
         </div>
       </div>
-      <div className=" flex-col justify-start items-start gap-9 inline-flex">
-        <div className="flex-col justify-start items-start gap-2 flex">
-          <div className="self-stretch text-[#abbdf2] text-[35px] font-waiting">Getting Started</div>
-          <div className="self-stretch text-[#b3b3b3] font-[350]  leading-[33px]">I began by watching YouTube tutorials and taking Udemy courses. I experimented with everything—logos, PPTs, PDFs, and even book formatting—to learn what good design is all about.</div>
+      <div className=" flex-col justify-start items-start gap-14 inline-flex">
+        <div className="flex-col justify-start items-start gap-4 flex">
+          <div className="self-stretch text-[#abbdf2] text-2xl md:text-[35px] font-waiting">Getting Started</div>
+          <div className="self-stretch text-[#ffff] font-[350]">I began by watching YouTube tutorials and taking Udemy courses. I experimented with everything—logos, PPTs, PDFs, and even book formatting—to learn what good design is all about.</div>
         </div>
         <div className="self-stretch h-[0px] border border-[#444444]"></div>
-        <div className="flex-col justify-start items-start gap-2 flex">
-          <div className="self-stretch text-[#abbdf2] text-[35px] font-waiting">The Early Hustle</div>
-          <div className="self-stretch text-[#b3b3b3] font-[350] leading-[33px]">Landing my first freelance project took two months of hard work. I sent out countless proposals, made plenty of changes, and learned from every mistake. Those early days were tough but taught me the value of sticking with it.</div>
+        <div className="flex-col justify-start items-start gap-4 flex">
+          <div className="self-stretch text-[#abbdf2] text-2xl md:text-[35px] font-waiting">The Early Hustle</div>
+          <div className="self-stretch text-[#ffff] font-[350]">Landing my first freelance project took two months of hard work. I sent out countless proposals, made plenty of changes, and learned from every mistake. Those early days were tough but taught me the value of sticking with it.</div>
         </div>
         <div className="self-stretch h-[0px] border border-[#444444]"></div>
-        <div className="flex-col justify-start items-start gap-2 flex">
-          <div className="self-stretch text-[#abbdf2] text-[35px] font-waiting">Building Credibility</div>
-          <div className="self-stretch text-[#b3b3b3] font-[350] leading-[33px]">With no reviews or past work, I jumped into Freelancer contests right from the start. Competing with thousands of designers pushed me to fix my mistakes and pick up new skills. In six months, I entered many contests and won at least 10, which helped build the credibility I needed to grow my profile.</div>
+        <div className="flex-col justify-start items-start gap-4 flex">
+          <div className="self-stretch text-[#abbdf2] text-2xl md:text-[35px] font-waiting">Building Credibility</div>
+          <div className="self-stretch text-[#ffff] font-[350]">With no reviews or past work, I jumped into Freelancer contests right from the start. Competing with thousands of designers pushed me to fix my mistakes and pick up new skills. In six months, I entered many contests and won at least 10, which helped build the credibility I needed to grow my profile.</div>
         </div>
         <div className="self-stretch h-[0px] border border-[#444444]"></div>
-        <div className="flex-col justify-start items-start gap-2 flex">
-          <div className="self-stretch text-[#abbdf2] text-[35px] font-waiting">Where I Am Today</div>
-          <div className="self-stretch text-[#b3b3b3] font-[350] leading-[33px]">Today, I'm a Verified and Preferred Freelancer on Freelancer.com, ranked in the Top 2% for UI design. Every project, contest, and bit of feedback has helped me improve. I'm still learning and excited about what comes next. <br />
+        <div className="flex-col justify-start items-start gap-4 flex">
+          <div className="self-stretch text-[#abbdf2] text-2xl md:text-[35px] font-waiting">Where I Am Today</div>
+          <div className="self-stretch text-[#ffff] font-[350]">Today, I'm a Verified and Preferred Freelancer on Freelancer.com, ranked in the Top 2% for UI design. Every project, contest, and bit of feedback has helped me improve. I'm still learning and excited about what comes next. <br />
             Thanks for being part of my journey—there's still a lot more to come!</div>
         </div>
       </div>

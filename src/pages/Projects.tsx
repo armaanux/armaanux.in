@@ -68,13 +68,13 @@ export const Projects = () => {
     >
       <div className="flex-col justify-center items-center gap-6 flex pb-10">
           <div className="font-first text-xl md:text-4xl"> Projects</div>
-          <div className="text-[#B3B3B3] text-lg">
+          <div className="text-[#B3B3B3] text-lg text-center">
         Here's a glimpse of the work I'm proud of - projects that challenged me,
         inspired me, and made me a better designer.
           </div>
         </div>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-4 sm:block columns-3 lg:gap-6 mx-24 space-y-4 lg:space-y-6">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 sm:block columns-3 lg:gap-6 md:mx-24 space-y-4 lg:space-y-6">
         {projects.map(({ image, name, description, time, casestudyLink }) => (
           <div
             key={name}
@@ -95,7 +95,7 @@ export const Projects = () => {
                   rel="noopener noreferrer"
                   className="w-full flex flex-row justify-center items-center text-center bg-white hover:bg-[#ffffffe3] text-black py-2 px-4 rounded-lg transition-colors duration-200"
                 >
-                  Case Study
+                  View Project
                 </a>
               </div>
             </div>
