@@ -13,7 +13,6 @@ export const NavIcons = [
   { id: 'behance', icon: <BehanceIcon />, link: "https://www.behance.net/armaandesigns4u"  },
   { id: 'whatsapp', icon: <WhatsappIcon />, link: "http://wa.me/918957949678"  },
   { id: 'mail', icon: <MailIcon />, link: "mailto:armaandesigns4u@gmail.com"  },
-  // { id: 'freelancer', icon: <FreelancerIcon /> },
 ];
 
 type NavLinkClassNameProps = {

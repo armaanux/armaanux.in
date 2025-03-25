@@ -1,13 +1,14 @@
-// import HeroShape from "./HeroShape";
+import HeroShape from "./HeroShape";
 
 // import { About } from "./About";
-import heroimg from "@/assets/hero_hexagon.png"
+// import heroimg from "@/assets/hero_hexagon.png"
 
 export const Hero = () => {
   return (
     <>
-      <section className="flex flex-col md:flex-row items-center justify-center px-24">
-        <img src={heroimg} alt="" />
+      <section className="flex flex-col md:flex-row items-center justify-center px-36 gap-5 md:gap-20 md:py-26">
+        {/* <img src={heroimg} alt="" /> */}
+        <HeroShape />
         <div className="flex flex-col items-start justify-center">
           <p className="text-xl font-normal md:text-2xl text-[#abbdf2] md:w-10/12">
             Hey, I'm Armaan

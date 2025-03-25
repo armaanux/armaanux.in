@@ -22,7 +22,7 @@ const Myshape = () => {
 const HeroShape = () => {
     return (
         <Canvas gl={{ alpha: true }}
-            style={{ backgroundColor: 'transparent', height: '300px', width: "300px" }}>
+            style={{ backgroundColor: 'transparent', height: '300px', width: "400px" }}>
             <directionalLight position={[-2, 0, 1]} intensity={10} />
             <directionalLight  position={[0, 0, 1]} intensity={5}/>
             <Myshape />
