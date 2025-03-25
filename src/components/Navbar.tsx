@@ -42,7 +42,7 @@ export const Navbar = ({ quote }: NavbarProps) => {
     <navbar id="navbar">
       <section className="flex md:flex-row-reverse bg-transparent justify-between items-center px-7 md:px-14 py-10">
         {/* Left Side: Quote */}
-        <h3 className="text-white text-sm md:text-base w-64">
+        <h3 className="text-white text-sm md:text-base w-64 md:text-end">
           {quote}
         </h3>
 

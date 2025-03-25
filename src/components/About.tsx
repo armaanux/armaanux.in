@@ -11,10 +11,10 @@ export const About = () => {
               I'm Armaan Parvez, a 22-year-old UI/UX Designer based in Lucknow, India. My job? To create designs that not only look great but actually work because let's be real, what's the point of something pretty if it doesn't function? Whether it's a website, an app, a logo, or a complete brand makeover, I make sure every design is a perfect balance of form and function.
             </p>
             <p>
-            I've been designing for 4 years, and while I'm also surviving my 4th year of Computer Science at BBDEC Lucknow, it's design that gets me out of bed in the morning (or at least keeps me from hitting snooze for the 10th time). Freelancing lets me dive into exciting projects, challenge myself, and learn something new every time plus, it's a great excuse to avoid that 'real job' life.
+              I've been designing for 4 years, and while I'm also surviving my 4th year of Computer Science at BBDEC Lucknow, it's design that gets me out of bed in the morning (or at least keeps me from hitting snooze for the 10th time). Freelancing lets me dive into exciting projects, challenge myself, and learn something new every time plus, it's a great excuse to avoid that 'real job' life.
             </p>
             <p>
-            I've done it all - logos, apps, websites but my sweet spot is creating designs that are clean, pixel-perfect, and user-friendly. Because it's not just about making things look good, it's about making sure they actually work for the people using them.
+              I've done it all - logos, apps, websites but my sweet spot is creating designs that are clean, pixel-perfect, and user-friendly. Because it's not just about making things look good, it's about making sure they actually work for the people using them.
             </p>
 
             <p>
@@ -30,7 +30,7 @@ export const About = () => {
       </div>
       <hr className="border-dotted border-t-2 border-gray-400 my-20 w-5/12" />
       <div className="space-y-12">
-        <div className="flex-col justify-center items-center gap-6 flex py-10">
+        <div className="flex-col justify-center items-center gap-6 flex pb-10">
           <div className="font-first text-xl md:text-4xl">SERVICES</div>
           <div className="text-[#B3B3B3] text-lg text-center">
             I offer a range of design solutions from sleek UI/UX to in-depth user research.
@@ -42,11 +42,12 @@ export const About = () => {
           <ServiceCard icon={SVGIcons.redesign} title="Website and App Redesign" description="Time for a digital refresh? I revamp outdated websites and apps with modern aesthetics and smoother navigation, transforming them into engaging, user-friendly platforms." />
           <ServiceCard icon={SVGIcons.research} title="User Research and Testing" description="Know your audience inside and out. I dive deep into user insights and testing, fine-tuning designs based on real feedback to ensure every element hits the mark." />
           <ServiceCard icon={SVGIcons.motion} title="Motion Design and Interaction" description="Add a little sparkle to your digital experience. I bring designs to life with dynamic animations and interactive elements that captivate users and elevate every click and scroll." />
+          <ServiceCard icon={SVGIcons.audit} title="Design Audits and UX Improvements" description="Got a prooduct that's not performing well? I identify usability issues, fix design inconsistencies, and provide actionable improvements for a smoother, more effective user experience." />
         </div>
       </div>
       <hr className="border-dotted border-t-2 border-gray-400 my-20 w-5/12" />
       <div className=' relative text-white space-y-12'>
-        <div className="flex-col justify-center items-center gap-6 flex md:py-10">
+        <div className="flex-col justify-center items-center gap-6 flex pb-10">
           <div className="font-first text-xl md:text-4xl">How I work?</div>
           <div className="text-[#B3B3B3] text-lg text-center">My design process? Simple, yet powerful ~
           </div>
@@ -144,6 +145,18 @@ const SVGIcons = {
       </defs>
     </svg>
   ),
+  audit: (
+    <svg width="55" height="53" viewBox="0 0 55 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.5 37.5V32.5H22.9375C22.7292 33.3333 22.5942 34.1667 22.5325 35C22.4708 35.8333 22.4808 36.6667 22.5625 37.5H17.5ZM17.5 50C14.0417 50 11.0942 48.7808 8.6575 46.3425C6.22083 43.9042 5.00167 40.9567 5 37.5V15C3.625 15 2.44833 14.5108 1.47 13.5325C0.491667 12.5542 0.00166667 11.3767 0 10V5C0 3.625 0.49 2.44833 1.47 1.47C2.45 0.491667 3.62667 0.00166667 5 0H30C31.375 0 32.5525 0.49 33.5325 1.47C34.5125 2.45 35.0017 3.62667 35 5V10C35 11.375 34.5108 12.5525 33.5325 13.5325C32.5542 14.5125 31.3767 15.0017 30 15V22.5625C29 23.1875 28.0833 23.9167 27.25 24.75C26.4167 25.5833 25.6875 26.5 25.0625 27.5H17.5V22.5H25V15H10V37.5C10 39.5833 10.7292 41.3542 12.1875 42.8125C13.6458 44.2708 15.4167 45 17.5 45C18.75 45 19.8858 44.7292 20.9075 44.1875C21.9292 43.6458 22.7933 42.8958 23.5 41.9375C23.8333 42.7708 24.2083 43.5625 24.625 44.3125C25.0417 45.0625 25.5417 45.7917 26.125 46.5C25 47.5833 23.7083 48.4375 22.25 49.0625C20.7917 49.6875 19.2083 50 17.5 50ZM5 10H30V5H5V10ZM38.75 42.5C40.5 42.5 41.9792 41.8958 43.1875 40.6875C44.3958 39.4792 45 38 45 36.25C45 34.5 44.3958 33.0208 43.1875 31.8125C41.9792 30.6042 40.5 30 38.75 30C37 30 35.5208 30.6042 34.3125 31.8125C33.1042 33.0208 32.5 34.5 32.5 36.25C32.5 38 33.1042 39.4792 34.3125 40.6875C35.5208 41.8958 37 42.5 38.75 42.5ZM51.5 52.5L44.75 45.75C43.8333 46.3333 42.875 46.7708 41.875 47.0625C40.875 47.3542 39.8333 47.5 38.75 47.5C35.625 47.5 32.9692 46.4067 30.7825 44.22C28.5958 42.0333 27.5017 39.3767 27.5 36.25C27.4983 33.1233 28.5925 30.4675 30.7825 28.2825C32.9725 26.0975 35.6283 25.0033 38.75 25C41.8717 24.9967 44.5283 26.0908 46.72 28.2825C48.9117 30.4742 50.005 33.13 50 36.25C50 37.3333 49.8542 38.375 49.5625 39.375C49.2708 40.375 48.8333 41.3333 48.25 42.25L55 49L51.5 52.5Z" fill="url(#paint0_linear_416_400)" />
+      <defs>
+        <linearGradient id="paint0_linear_416_400" x1="0" y1="26.25" x2="55" y2="26.25" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#ABBDF2" />
+          <stop offset="1" />
+        </linearGradient>
+      </defs>
+    </svg>
+
+  )
 };
 
 // Service Card Component

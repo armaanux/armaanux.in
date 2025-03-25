@@ -63,7 +63,7 @@ export const Contact = () => {
                         type="text"
                         id="name"
                         placeholder="What's your name, awesome human?"
-                        className="bg-[#11111140] border-2 border-white/50 p-3 rounded focus:outline-none focus:border-gray-600 transition-all"
+                        className="bg-[#11111140] border-2 border-[#444444] p-3 rounded focus:outline-none focus:border-gray-600 transition-all"
                         value={name}
                         onChange={(e) => setName(e.target.value)}
                         required
@@ -75,7 +75,7 @@ export const Contact = () => {
                         type="email"
                         id="email"
                         placeholder="Where can I slide into your inbox? (Professionally, of course!)"
-                        className="bg-[#11111140] border-2 border-white/50 p-3 rounded focus:outline-none focus:border-gray-600 transition-all"
+                        className="bg-[#11111140] border-2 border-[#444444] p-3 rounded focus:outline-none focus:border-gray-600 transition-all"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         required
@@ -87,7 +87,7 @@ export const Contact = () => {
                         id="message"
                         rows={6}
                         placeholder="How can I help you?"
-                        className="bg-[#11111140] border-2 border-white/50 p-3 rounded resize-none focus:outline-none focus:border-gray-600 transition-all"
+                        className="bg-[#11111140] border-2 border-[#444444] p-3 rounded resize-none focus:outline-none focus:border-gray-600 transition-all"
                         value={message}
                         onChange={(e) => setMessage(e.target.value)}
                         required

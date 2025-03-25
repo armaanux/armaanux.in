@@ -52,7 +52,7 @@ const testimonials: TestimonialProps[] = [
 ];
 export const Milestones = () => {
   return (
-    <div className='relative text-white px-5 md:px-48 space-y-12'>
+    <div className='relative flex flex-col justify-center items-center text-white px-5 md:px-48 space-y-12'>
       <div className="flex-col justify-center items-center gap-6 flex py-10">
         <div className="font-first text-xl md:text-4xl">Milestones</div>
         <div className="text-[#B3B3B3] text-lg text-center">My design journey was a mix of trial, error, and a whole lot of learning. Here's how it really went down.
@@ -80,9 +80,11 @@ export const Milestones = () => {
             Thanks for being part of my journey—there's still a lot more to come!</div>
         </div>
       </div>
+      
+      <hr className="border-dotted border-t-2 border-gray-400 my-20 w-5/12" />
       <section
         id="testimonials"
-        className="w-full py-24 space-y-12"
+        className="w-full pb-24 space-y-12"
       >
         <div className="flex-col justify-center items-center gap-6 flex py-10">
           <div className="font-first text-xl md:text-4xl">Testimonials</div>
