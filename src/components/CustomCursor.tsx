@@ -2,14 +2,14 @@ import { useEffect } from 'react';
 
 const CustomCursor = () => {
   useEffect(() => {
-    const cursor = document.querySelector('.cursor');
-    const ring = document.querySelector('.cursor-ring');
+    const cursor: any = document.querySelector('.cursor');
+    const ring: any = document.querySelector('.cursor-ring');
 
     let ringX = 0, ringY = 0;
     let targetX = 0, targetY = 0;
     const speed = 0.1;
 
-    const handleMouseMove = (e) => {
+    const handleMouseMove = (e:any) => {
       const { clientX: x, clientY: y } = e;
       if (cursor) {
         cursor.style.left = `${x}px`;
