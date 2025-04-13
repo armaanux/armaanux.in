@@ -9,6 +9,7 @@ import { Milestones } from "./pages/Milestones";
 import { Contact } from "./pages/Contact";
 import { Blogs } from "./pages/Blogs";
 import Loader from "./components/Loader"; // Import the Loader
+import CustomCursor from "@/components/CustomCursor"; // Import the CustomCursor
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -29,7 +30,9 @@ function App() {
         <Loader /> // Show Loader while loading
       ) : (
         <div className={`transition-opacity duration-1000 ease-in-out ${fadeIn ? "opacity-100" : "opacity-0"}`}>
+          
           <Router>
+          <CustomCursor /> 
             <Layout>
               <Routes>
                 <Route
