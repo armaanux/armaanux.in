@@ -39,7 +39,7 @@ export const Navbar = ({ quote }: NavbarProps) => {
   ];
 
   return (
-    <navbar id="navbar">
+    <nav id="navbar">
       <section className="flex md:flex-row-reverse bg-transparent justify-between items-center px-7 md:px-20 py-10">
         {/* Left Side: Quote */}
         <h3 className="text-white text-sm md:text-base w-64 md:text-end">
@@ -98,6 +98,6 @@ export const Navbar = ({ quote }: NavbarProps) => {
           </div>
         </div>
       </section>
-    </navbar>
+    </nav>
   );
 };

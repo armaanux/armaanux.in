@@ -8,52 +8,59 @@ import { Projects } from "./pages/Projects";
 import { Milestones } from "./pages/Milestones";
 import { Contact } from "./pages/Contact";
 import { Blogs } from "./pages/Blogs";
-import Loader from "./components/Loader"; // Import the Loader
-import CustomCursor from "@/components/CustomCursor"; // Import the CustomCursor
+import Loader from "./components/Loader";
+import CustomCursor from "@/components/CustomCursor";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
-  const [fadeIn, setFadeIn] = useState(false);
+  const [fadeOut, setFadeOut] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setIsLoading(false);
-      setTimeout(() => setFadeIn(true), 100); // Slight delay for smooth transition
-    }, 2000); // Loader duration
+      setFadeOut(true); // Start fade out
+      setTimeout(() => {
+        setIsLoading(false); // Remove loader completely after fade
+      }, 1000); // Match with fade transition
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, []);
 
   return (
-    <>
-      {isLoading ? (
-        <Loader /> // Show Loader while loading
-      ) : (
-        <div className={`transition-opacity duration-1000 ease-in-out ${fadeIn ? "opacity-100" : "opacity-0"}`}>
-          
-          <Router>
-          <CustomCursor /> 
-            <Layout>
-              <Routes>
-                <Route
-                  path="/"
-                  element={
-                    <>
-                      <Hero />
-                      <About />
-                    </>
-                  }
-                />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/milestones" element={<Milestones />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/blogs" element={<Blogs />} />
-              </Routes>
-            </Layout>
-          </Router>
+    <div className="relative">
+      {/* Loader overlay */}
+      {isLoading && (
+        <div
+          className={`fixed inset-0 z-[99999] transition-opacity duration-1000 ease-in-out ${
+            fadeOut ? "opacity-0 pointer-events-none" : "opacity-100"
+          }`}
+        >
+          <Loader />
         </div>
       )}
-    </>
+
+      {/* Actual App (renders immediately) */}
+      <Router>
+        <CustomCursor />
+        <Layout>
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <>
+                  <Hero />
+                  <About />
+                </>
+              }
+            />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/milestones" element={<Milestones />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/blogs" element={<Blogs />} />
+          </Routes>
+        </Layout>
+      </Router>
+    </div>
   );
 }
 
