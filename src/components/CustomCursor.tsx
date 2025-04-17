@@ -42,8 +42,10 @@ const CustomCursor = () => {
   return (
     <>
       <div
-        className="cursor fixed w-3 h-3 bg-gradient-radial from-cyan-400 to-blue-700 rounded-full pointer-events-none z-[9999] shadow-[0_0_15px_rgba(0,204,255,0.8)] -translate-x-1/2 -translate-y-1/2 transition-transform duration-100 ease-out"
-      />
+  className="cursor fixed w-3 h-3 rounded-full pointer-events-none z-[9999] shadow-[0_0_15px_rgba(0,204,255,0.8)] -translate-x-1/2 -translate-y-1/2 transition-transform duration-100 ease-out"
+  style={{ background: 'radial-gradient(#22d3ee, #1d4ed8)' }}
+/>
+
       <div
         className="cursor-ring fixed w-7 h-7 border border-cyan-400/60 rounded-full pointer-events-none z-[9998] -translate-x-1/2 -translate-y-1/2"
       />

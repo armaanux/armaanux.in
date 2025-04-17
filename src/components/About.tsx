@@ -57,17 +57,17 @@ export const About = () => {
             <div className="self-stretch text-[#abbdf2] text-2xl md:text-[35px] font-waiting">Listen</div>
             <div className="self-stretch text-[#ffff] font-[350]">For me, every great design starts with a conversation. I'll take the time to really understand your vision, goals, and what you need. It's not about rushing in. It's about figuring out how to make your project shine (and maybe doing a little doodling in my sketchbook if inspiration hits).</div>
           </div>
-          <div className="self-stretch h-[0px] border border-[#444444]"></div>
+          <div className="self-stretch h-[0px] border border-[#979797]"></div>
           <div className="flex-col justify-start items-start gap-2 flex">
             <div className="self-stretch text-[#abbdf2] text-2xl md:text-[35px] font-waiting">Brainstorm</div>
             <div className="self-stretch text-[#ffff] font-[350]">Before jumping into the digital side of things, I grab my trusty sketchbook. This is where rough ideas start to take shape, whether it's wireframes or logo concepts. Honestly, my sketchbook doesn't get much attention otherwise, so it's a special moment for both of us.</div>
           </div>
-          <div className="self-stretch h-[0px] border border-[#444444]"></div>
+          <div className="self-stretch h-[0px] border border-[#979797]"></div>
           <div className="flex-col justify-start items-start gap-2 flex">
             <div className="self-stretch text-[#abbdf2] text-2xl md:text-[35px] font-waiting">Design</div>
             <div className="self-stretch text-[#ffff] font-[350] ">With the sketches as a guide, I bring your ideas to life on screen. This is where the magic happens - designs take form, feedback sharpens them, and together, we create something that's not only beautiful but also works perfectly.</div>
           </div>
-          <div className="self-stretch h-[0px] border border-[#444444]"></div>
+          <div className="self-stretch h-[0px] border border-[#979797]"></div>
           <div className="flex-col justify-start items-start gap-2 flex">
             <div className="self-stretch text-[#abbdf2] text-2xl md:text-[35px] font-waiting">Deliver</div>
             <div className="self-stretch text-[#ffff] font-[350] ">Once you're excited about the result, I wrap everything up and send it your way. There's nothing better than seeing a happy client (and maybe treating myself to a coffee after a job well done).</div>
@@ -168,10 +168,10 @@ interface ServiceCardProps {
 
 // ServiceCard Component with TypeScript types
 const ServiceCard: React.FC<ServiceCardProps> = ({ icon, title, description }) => (
-  <div className=" p-6 md:p-8 bg-black/25 rounded-[10px]  shadow-[0px_10px_36px_0px_rgba(0,0,0,0.16)] border border-[#222222] flex flex-col justify-start items-start gap-4 md:gap-6 h-full w-full">
+  <div className=" p-6 md:p-8 bg-black/70 rounded-[10px]  shadow-[0px_10px_36px_0px_rgba(0,0,0,0.16)] border border-[#222222] flex flex-col justify-start items-start gap-4 md:gap-6 h-full w-full">
     <div className="self-stretch justify-start items-center gap-5 inline-flex">
       <div data-svg-wrapper>{icon}</div>
-      <div className="text-[#abbdf2] text-lg md:text-xl font-normal leading-7">{title}</div>
+      <div className="text-[#abbdf2] text-lg md:text-xl font-semibold leading-7">{title}</div>
     </div>
     <div className="self-stretch text-[#ffff] font-normal">
       {description}

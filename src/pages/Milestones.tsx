@@ -63,17 +63,17 @@ export const Milestones = () => {
           <div className="self-stretch text-[#abbdf2] text-2xl md:text-[35px] font-waiting">Getting Started</div>
           <div className="self-stretch text-[#ffff] font-[350]">I began by watching YouTube tutorials and taking Udemy courses. I experimented with everything—logos, PPTs, PDFs, and even book formatting—to learn what good design is all about.</div>
         </div>
-        <div className="self-stretch h-[0px] border border-[#444444]"></div>
+        <div className="self-stretch h-[0px] border border-[#979797]"></div>
         <div className="flex-col justify-start items-start gap-4 flex">
           <div className="self-stretch text-[#abbdf2] text-2xl md:text-[35px] font-waiting">The Early Hustle</div>
           <div className="self-stretch text-[#ffff] font-[350]">Landing my first freelance project took two months of hard work. I sent out countless proposals, made plenty of changes, and learned from every mistake. Those early days were tough but taught me the value of sticking with it.</div>
         </div>
-        <div className="self-stretch h-[0px] border border-[#444444]"></div>
+        <div className="self-stretch h-[0px] border border-[#979797]"></div>
         <div className="flex-col justify-start items-start gap-4 flex">
           <div className="self-stretch text-[#abbdf2] text-2xl md:text-[35px] font-waiting">Building Credibility</div>
           <div className="self-stretch text-[#ffff] font-[350]">With no reviews or past work, I jumped into Freelancer contests right from the start. Competing with thousands of designers pushed me to fix my mistakes and pick up new skills. In six months, I entered many contests and won at least 10, which helped build the credibility I needed to grow my profile.</div>
         </div>
-        <div className="self-stretch h-[0px] border border-[#444444]"></div>
+        <div className="self-stretch h-[0px] border border-[#979797]"></div>
         <div className="flex-col justify-start items-start gap-4 flex">
           <div className="self-stretch text-[#abbdf2] text-2xl md:text-[35px] font-waiting">Where I Am Today</div>
           <div className="self-stretch text-[#ffff] font-[350]">Today, I'm a Verified and Preferred Freelancer on Freelancer.com, ranked in the Top 2% for UI design. Every project, contest, and bit of feedback has helped me improve. I'm still learning and excited about what comes next. <br />

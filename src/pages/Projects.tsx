@@ -1,8 +1,6 @@
-import projectimg1 from "@/assets/project-1.png";
 import projectimg2 from "@/assets/3D Consultation.png";
 import projectimg3 from "@/assets/NewRise v2.png";
 import projectimg4 from "@/assets/Bidding Bot.png";
-import placeholderimg from "@/assets/placeholderimg.png"
 import notionlogo from "@/assets/notion-logo.svg";
 import figmalogo from "@/assets/figma-logo.svg";
 
@@ -32,34 +30,10 @@ const projects: ProjectsProps[] = [
     projectdesignlink: "",
   },
   {
-    image: projectimg1,
-    name: "Freelancer App Redesigned",
-    description:
-      "Redesigning the Freelancer app to create a modern, seamless experience that's easier to navigate and tailored to user needs.",
-    projectoverviewlink: "34",
-    projectdesignlink: "",
-  },
-  {
-    image: placeholderimg,
-    name: "Project Title",
-    description:
-      "Lorem ipsum dolor sit amet consectetur. Non pulvinar suspendisse et libero amet vitae pharetra amet senectus. Lobortis consectetur amet neque tincidunt semper et pretium amet urna. Integer elementum placerat leo purus.",
-    projectoverviewlink: "34",
-    projectdesignlink: "",
-  },
-  {
     image: projectimg3,
     name: "NewRise Real Estate Desktop UI",
     description:
       "A clean, modern real estate platform designed in Figma, featuring fluid navigation, refined search filters, and a seamless user experience. Designed to make property browsing intuitive and engaging across all devices.",
-    projectoverviewlink: "34",
-    projectdesignlink: "",
-  },
-  {
-    image: placeholderimg,
-    name: "Project Title",
-    description:
-      "Lorem ipsum dolor sit amet consectetur. Non pulvinar suspendisse et libero amet vitae pharetra amet senectus. Lobortis consectetur amet neque tincidunt semper et pretium amet urna. Integer elementum placerat leo purus.",
     projectoverviewlink: "34",
     projectdesignlink: "",
   }

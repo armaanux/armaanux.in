@@ -63,7 +63,7 @@ export const Contact = () => {
                         type="text"
                         id="name"
                         placeholder="What's your name, awesome human?"
-                        className="bg-[#11111140] border-2 border-[#444444] p-3 rounded focus:outline-none focus:border-gray-600 transition-all"
+                        className="bg-[#11111140] border-2 border-[#979797] p-3 rounded focus:outline-none focus:border-gray-100 transition-all"
                         value={name}
                         onChange={(e) => setName(e.target.value)}
                         required
@@ -75,7 +75,7 @@ export const Contact = () => {
                         type="email"
                         id="email"
                         placeholder="Where can I slide into your inbox? (Professionally, of course!)"
-                        className="bg-[#11111140] border-2 border-[#444444] p-3 rounded focus:outline-none focus:border-gray-600 transition-all"
+                        className="bg-[#11111140] border-2 border-[#979797] p-3 rounded focus:outline-none focus:border-gray-100 transition-all"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         required
@@ -87,7 +87,7 @@ export const Contact = () => {
                         id="message"
                         rows={6}
                         placeholder="How can I help you?"
-                        className="bg-[#11111140] border-2 border-[#444444] p-3 rounded resize-none focus:outline-none focus:border-gray-600 transition-all"
+                        className="bg-[#11111140] border-2 border-[#979797] p-3 rounded resize-none focus:outline-none focus:border-gray-100 transition-all"
                         value={message}
                         onChange={(e) => setMessage(e.target.value)}
                         required
@@ -100,7 +100,7 @@ export const Contact = () => {
                     </span>
                     <button
                         type="submit"
-                        className={`w-40 h-12 flex items-center justify-center text-black text-base p-3 rounded cursor-pointer transition-all ${formStatus === "success"
+                        className={`w-40 h-12 flex items-center justify-center text-black text-lg p-3 font-normal rounded cursor-pointer transition-all ${formStatus === "success"
                             ? "bg-green-500 text-white"
                             : formStatus === "error"
                                 ? "bg-red-500 text-white"
@@ -126,7 +126,7 @@ export const Contact = () => {
 
 const Exclamationsvg = () => {
     return (
-        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="26" height="26" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15 26.5625C21.3858 26.5625 26.5625 21.3858 26.5625 15C26.5625 8.61421 21.3858 3.4375 15 3.4375C8.61421 3.4375 3.4375 8.61421 3.4375 15C3.4375 21.3858 8.61421 26.5625 15 26.5625Z" stroke="white" strokeWidth="1.5" />
             <path d="M15 14.7662V21.0162" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
             <path d="M15 12.11C15.8629 12.11 16.5625 11.4104 16.5625 10.5475C16.5625 9.68454 15.8629 8.98499 15 8.98499C14.1371 8.98499 13.4375 9.68454 13.4375 10.5475C13.4375 11.4104 14.1371 12.11 15 12.11Z" fill="white" />
