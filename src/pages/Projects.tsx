@@ -46,7 +46,9 @@ export const Projects = () => {
       className="w-full px-5 md:px-20 space-y-12 container py-10 text-white"
     >
       <div className="flex-col justify-center items-center gap-6 flex pb-10">
-        <div className="font-first text-xl md:text-4xl"> Projects</div>
+        <div className="font-first text-xl md:text-4xl bg-gradient-to-r bg-clip-text  text-transparent 
+            from-[#FFFFFF]  via-[#CACACA] to-[#FFFFFF]
+            animate-text tracking-tight"> Projects</div>
         <div className="text-[#B3B3B3] text-lg text-center">
         Here's a glimpse of the work I'm proud of - projects that challenged me, inspired me, and made me a better designer.
         </div>

@@ -50,7 +50,9 @@ export const Contact = () => {
             className="w-full px-5 md:px-20 space-y-5 container py-10 relative text-white"
         >
             <div className="flex-col justify-center items-center gap-6 flex pb-10">
-                <div className="font-first text-xl md:text-4xl">Contact me</div>
+                <div className="font-first text-xl md:text-4xl bg-gradient-to-r bg-clip-text  text-transparent 
+            from-[#FFFFFF]  via-[#CACACA] to-[#FFFFFF]
+            animate-text tracking-tight">Contact me</div>
                 <div className="text-[#B3B3B3] text-lg text-center">
                     Got a project in mind or just want to say hello? Feel free to reach out.
                     I'd love to hear from you :)
@@ -93,14 +95,11 @@ export const Contact = () => {
                         required
                     />
                 </div>
-                <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-5">
-                    <span className="flex flex-row justify-between items-center gap-2">
-                        <Exclamationsvg />
-                        Your information is safe and stay private, always.
-                    </span>
+                <div className="w-full flex flex-col items-end gap-2">
+                    
                     <button
                         type="submit"
-                        className={`w-40 h-12 flex items-center justify-center text-black text-lg p-3 font-normal rounded cursor-pointer transition-all ${formStatus === "success"
+                        className={`w-40 h-12 flex items-center justify-center text-black text-lg p-3 font-semibold rounded cursor-pointer transition-all ${formStatus === "success"
                             ? "bg-green-500 text-white"
                             : formStatus === "error"
                                 ? "bg-red-500 text-white"
@@ -124,13 +123,13 @@ export const Contact = () => {
 };
 
 
-const Exclamationsvg = () => {
-    return (
-        <svg width="26" height="26" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M15 26.5625C21.3858 26.5625 26.5625 21.3858 26.5625 15C26.5625 8.61421 21.3858 3.4375 15 3.4375C8.61421 3.4375 3.4375 8.61421 3.4375 15C3.4375 21.3858 8.61421 26.5625 15 26.5625Z" stroke="white" strokeWidth="1.5" />
-            <path d="M15 14.7662V21.0162" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
-            <path d="M15 12.11C15.8629 12.11 16.5625 11.4104 16.5625 10.5475C16.5625 9.68454 15.8629 8.98499 15 8.98499C14.1371 8.98499 13.4375 9.68454 13.4375 10.5475C13.4375 11.4104 14.1371 12.11 15 12.11Z" fill="white" />
-        </svg>
+// const Exclamationsvg = () => {
+//     return (
+//         <svg width="26" height="26" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+//             <path d="M15 26.5625C21.3858 26.5625 26.5625 21.3858 26.5625 15C26.5625 8.61421 21.3858 3.4375 15 3.4375C8.61421 3.4375 3.4375 8.61421 3.4375 15C3.4375 21.3858 8.61421 26.5625 15 26.5625Z" stroke="white" strokeWidth="1.5" />
+//             <path d="M15 14.7662V21.0162" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
+//             <path d="M15 12.11C15.8629 12.11 16.5625 11.4104 16.5625 10.5475C16.5625 9.68454 15.8629 8.98499 15 8.98499C14.1371 8.98499 13.4375 9.68454 13.4375 10.5475C13.4375 11.4104 14.1371 12.11 15 12.11Z" fill="white" />
+//         </svg>
 
-    )
-}
+//     )
+// }

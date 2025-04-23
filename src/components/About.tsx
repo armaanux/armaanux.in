@@ -31,7 +31,9 @@ export const About = () => {
       <hr className="border-dotted border-t-2 border-gray-400 my-20 w-5/12" />
       <div className="space-y-12">
         <div className="flex-col justify-center items-center gap-6 flex pb-10">
-          <div className="font-first text-xl md:text-4xl">SERVICES</div>
+          <div className="font-first text-xl md:text-4xl bg-gradient-to-r bg-clip-text  text-transparent 
+            from-[#FFFFFF]  via-[#CACACA] to-[#FFFFFF]
+            animate-text tracking-tight">SERVICES</div>
           <div className="text-[#B3B3B3] text-lg text-center">
             I offer a range of design solutions from sleek UI/UX to in-depth user research.
           </div>
@@ -48,7 +50,9 @@ export const About = () => {
       <hr className="border-dotted border-t-2 border-gray-400 my-20 w-5/12" />
       <div className=' relative text-white space-y-12'>
         <div className="flex-col justify-center items-center gap-6 flex pb-10">
-          <div className="font-first text-xl md:text-4xl">How I work?</div>
+          <div className="font-first text-xl md:text-4xl bg-gradient-to-r bg-clip-text  text-transparent 
+            from-[#FFFFFF]  via-[#CACACA] to-[#FFFFFF]
+            animate-text tracking-tight">How I work?</div>
           <div className="text-[#B3B3B3] text-lg text-center">My design process? Simple, yet powerful ~
           </div>
         </div>

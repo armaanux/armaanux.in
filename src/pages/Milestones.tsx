@@ -54,7 +54,9 @@ export const Milestones = () => {
   return (
     <div className='relative flex flex-col justify-center items-center text-white px-5 md:px-48 space-y-12'>
       <div className="flex-col justify-center items-center gap-6 flex py-10">
-        <div className="font-first text-xl md:text-4xl">Milestones</div>
+        <div className="font-first text-xl md:text-4xl bg-gradient-to-r bg-clip-text  text-transparent 
+            from-[#FFFFFF]  via-[#CACACA] to-[#FFFFFF]
+            animate-text tracking-tight">Milestones</div>
         <div className="text-[#B3B3B3] text-lg text-center">My design journey was a mix of trial, error, and a whole lot of learning. Here's how it really went down.
         </div>
       </div>
@@ -87,7 +89,9 @@ export const Milestones = () => {
         className="w-full pb-24 space-y-12"
       >
         <div className="flex-col justify-center items-center gap-6 flex py-10">
-          <div className="font-first text-xl md:text-4xl">Testimonials</div>
+          <div className="font-first text-xl md:text-4xl bg-gradient-to-r bg-clip-text  text-transparent 
+            from-[#FFFFFF]  via-[#CACACA] to-[#FFFFFF]
+            animate-text tracking-tight">Testimonials</div>
           <div className="text-[#B3B3B3] text-lg">Here's what some awesome people I've worked with in the past have to say about me!
           </div>
         </div>
