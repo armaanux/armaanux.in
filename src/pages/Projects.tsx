@@ -19,24 +19,24 @@ const projects: ProjectsProps[] = [
     name: "3D Consultation Dashboard",
     description:
       "A desktop interface built for easy exploration of medical videos, categorized by body part, diagnosis, and viewing angle. The organized, tab-based layout makes navigation simple and improves content discoverability.",
-    projectoverviewlink: "34",
-    projectdesignlink: "",
+    projectoverviewlink: "https://armaanux.notion.site/3d-consultation?pvs=4",
+    projectdesignlink: "https://www.figma.com/design/5Unsl6gDUBJxM6QYYFfNGK/3D-Consultation?node-id=0-1&t=yWriiOuag9QduujY-1",
   },
   {
     image: projectimg4,
     name: "Semi-Auto Freelancer Bidding Bot",
     description:
       "Spending too much time writing bids? This intelligent bidding system uses AI to write tailored, high-quality bids automatically. Deliver competitive offers faster, streamline your workflow, and win more projects with ease.",
-    projectoverviewlink: "34",
-    projectdesignlink: "",
+    projectoverviewlink: "https://armaanux.notion.site/freelancer-bidding?pvs=4",
+    projectdesignlink: "https://github.com/armaanux/freelancer-bidding-tool",
   },
   {
     image: projectimg3,
     name: "NewRise Real Estate Desktop UI",
     description:
       "A clean, modern real estate platform designed in Figma, featuring fluid navigation, refined search filters, and a seamless user experience. Designed to make property browsing intuitive and engaging across all devices.",
-    projectoverviewlink: "34",
-    projectdesignlink: "",
+    projectoverviewlink: "https://armaanux.notion.site/newrise?pvs=4",
+    projectdesignlink: "https://www.figma.com/design/zMEBwVDEmBLf1ezSgziVyy/NewRise?node-id=0-1&t=UghOIUlbjh6wSxNT-1",
   }
 ];
 
