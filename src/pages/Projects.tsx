@@ -3,6 +3,7 @@ import projectimg3 from "@/assets/NewRise v2.png";
 import projectimg4 from "@/assets/Bidding Bot.png";
 import notionlogo from "@/assets/notion-logo.svg";
 import figmalogo from "@/assets/figma-logo.svg";
+import githublogo from "@/assets/github-logo.svg";
 
 interface ProjectsProps {
   image: string;
@@ -50,7 +51,7 @@ export const Projects = () => {
             from-[#FFFFFF]  via-[#CACACA] to-[#FFFFFF]
             animate-text tracking-tight"> Projects</div>
         <div className="text-[#B3B3B3] text-lg text-center">
-        Here's a glimpse of the work I'm proud of - projects that challenged me, inspired me, and made me a better designer.
+          Here's a glimpse of the work I'm proud of - projects that challenged me, inspired me, and made me a better designer.
         </div>
       </div>
 
@@ -81,8 +82,17 @@ export const Projects = () => {
                   rel="noopener noreferrer"
                   className="w-full flex flex-row justify-center items-center text-center bg-transparent hover:bg-accent-foreground text-white py-2 rounded-lg transition-colors duration-200 border-2"
                 >
-                  <img src={figmalogo} alt="Figma Logo" className="w-5 h-5 mr-2" />
-                  View Design
+                  {name === "Semi-Auto Freelancer Bidding Bot" ? (
+                    <>
+                      <img src={githublogo} alt="Github Logo" className="w-5 h-5 mr-2" />
+                      {"Github"}
+                    </>
+                  ) : (
+                    <>
+                      <img src={figmalogo} alt="Figma Logo" className="w-5 h-5 mr-2" />
+                      {"View Design"}
+                    </>
+                  )}
                 </a>
               </div>
             </div>
