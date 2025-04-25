@@ -1,7 +1,6 @@
 import { LinkedinIcon } from "./Icons";
 import { InstagramIcon } from "./Icons";
 import { BehanceIcon } from "./Icons";
-import { WhatsappIcon } from "./Icons";
 import { MailIcon } from "./Icons";
 // import { FreelancerIcon } from "./Icons";
 
@@ -9,7 +8,6 @@ export const FooterIcons = [
   { id: 'linkedin', icon: <LinkedinIcon />, link: "https://www.linkedin.com/in/armaanxd" },
   { id: 'instagram', icon: <InstagramIcon />, link: "http://www.instagram.com/armaan.ux"  },
   { id: 'behance', icon: <BehanceIcon />, link: "https://www.behance.net/armaandesigns4u"  },
-  { id: 'whatsapp', icon: <WhatsappIcon />, link: "http://wa.me/918957949678"  },
   { id: 'mail', icon: <MailIcon />, link: "mailto:armaandesigns4u@gmail.com"  },
   // { id: 'freelancer', icon: <FreelancerIcon /> },
 ];
