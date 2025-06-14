@@ -8,20 +8,23 @@ export const About = () => {
         <div className="space-y-6">
           <div className="space-y-6 text-justify font-[350]">
             <p>
-              I'm Armaan Parvez, a 22-year-old UI/UX Designer based in Lucknow, India. My job? To create designs that not only look great but actually work because let's be real, what's the point of something pretty if it doesn't function? Whether it's a website, an app, a logo, or a complete brand makeover, I make sure every design is a perfect balance of form and function.
+              Ever wondered what happens when design meets clarity?
             </p>
             <p>
-              I've been designing for 4 years, and while I'm also surviving my 4th year of Computer Science at BBDEC Lucknow, it's design that gets me out of bed in the morning (or at least keeps me from hitting snooze for the 10th time). Freelancing lets me dive into exciting projects, challenge myself, and learn something new every time plus, it's a great excuse to avoid that 'real job' life.
+              I'm Armaan Parvez, a UI/UX designer based in Lucknow. For the past 4 years I've been helping startups, businesses and founders turn messy ideas into clean, usable and modern digital products such as websites, apps and branding that actually work.
             </p>
             <p>
-              I've done it all - logos, apps, websites but my sweet spot is creating designs that are clean, pixel-perfect, and user-friendly. Because it's not just about making things look good, it's about making sure they actually work for the people using them.
-            </p>
-
-            <p>
-              When I'm not designing, you'll probably find me binge-watching movies and shows, gaming (because who can resist?), or traveling to new places.
+              Design isn't just about looking good. It's about being clear, intuitive and easy to build. That's why I focus on user-first thinking, dev-friendly figma files and responsive designs that just fit across screens and teams.
             </p>
             <p>
-              That's enough about me for now! Got a project that needs a bit of creativity? Let's chat - no pressure, just a friendly conversation. I'd be happy to help bring your vision to life!            </p>
+              I've just finished my Computer Science degree, which means I understand both design and development. So your dev team won't hate me. In fact, they'll thank you.
+            </p>
+            <p>
+              When I'm not designing I'm into Formula 1, movies, gaming or daydreaming about my next escape to someplace new.
+            </p>
+            <p>
+              If you're looking for clean, no-fluff design that gets results, you're in the right place. Feel free to reach out anytime.
+            </p>
           </div>
         </div>
 
