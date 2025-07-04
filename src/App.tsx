@@ -7,14 +7,16 @@ import Layout from "./components/Layout";
 import { Projects } from "./pages/Projects";
 import { Milestones } from "./pages/Milestones";
 import { Contact } from "./pages/Contact";
-import { Blogs } from "./pages/Blogs";
 import Loader from "./components/Loader";
 import CustomCursor from "@/components/CustomCursor";
+import { BlogList } from "./components/BlogList";
+import BlogPostPage from "./components/BlogPostPage";
+import { getAllBlogPosts } from "./lib/blog";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [fadeOut, setFadeOut] = useState(false);
-
+  const posts = getAllBlogPosts();
   useEffect(() => {
     const timer = setTimeout(() => {
       setFadeOut(true); // Start fade out
@@ -31,9 +33,8 @@ function App() {
       {/* Loader overlay */}
       {isLoading && (
         <div
-          className={`fixed inset-0 z-[99999] transition-opacity duration-1000 ease-in-out ${
-            fadeOut ? "opacity-0 pointer-events-none" : "opacity-100"
-          }`}
+          className={`fixed inset-0 z-[99999] transition-opacity duration-1000 ease-in-out ${fadeOut ? "opacity-0 pointer-events-none" : "opacity-100"
+            }`}
         >
           <Loader />
         </div>
@@ -56,7 +57,8 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/milestones" element={<Milestones />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/blogs" element={<Blogs />} />
+            <Route path="/blogs" element={<BlogList posts={posts} />} />
+            <Route path="/blogs/:slug" element={<BlogPostPage />} />
           </Routes>
         </Layout>
       </Router>

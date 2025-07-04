@@ -122,3 +122,98 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Prose styles for MDX content (Dark Mode Optimized) */
+.prose {
+  @apply text-gray-200 leading-relaxed;
+  line-height: 1.75;
+}
+
+.prose h1 {
+  @apply text-3xl font-bold mt-8 mb-4 text-gray-200;
+  line-height: 1.2;
+}
+
+.prose h2 {
+  @apply text-2xl font-semibold mt-6 mb-3 text-gray-200;
+  line-height: 1.3;
+}
+
+.prose h3 {
+  @apply text-xl font-medium mt-4 mb-2 text-gray-200;
+  line-height: 1.4;
+}
+
+.prose h4 {
+  @apply text-lg font-medium mt-4 mb-2 text-gray-200;
+}
+
+.prose p {
+  @apply mb-4 text-gray-200 leading-relaxed;
+}
+
+.prose pre {
+  @apply bg-gray-800 text-gray-200 p-4 rounded-lg overflow-x-auto mb-4;
+  line-height: 1.6;
+}
+
+.prose code {
+  @apply bg-gray-700 text-gray-200 px-2 py-1 rounded text-sm;
+  font-family: 'Courier New', monospace;
+}
+
+.prose pre code {
+  @apply bg-transparent p-0 text-gray-200;
+}
+
+.prose blockquote {
+  @apply border-l-4 border-blue-500 pl-4 italic my-4 text-gray-200;
+}
+
+.prose ul {
+  @apply mb-4 pl-6;
+}
+
+.prose ul li {
+  @apply mb-2 list-disc text-gray-200;
+}
+
+.prose ol {
+  @apply mb-4 pl-6;
+}
+
+.prose ol li {
+  @apply mb-2 list-decimal text-gray-200;
+}
+
+.prose a {
+  @apply text-blue-200 hover:text-blue-300 underline;
+}
+
+.prose strong {
+  @apply font-semibold text-gray-200;
+}
+
+.prose em {
+  @apply italic text-gray-200;
+}
+
+.prose img {
+  @apply rounded-lg shadow-sm my-4;
+}
+
+.prose table {
+  @apply w-full border-collapse border border-gray-700 my-4;
+}
+
+.prose th {
+  @apply bg-gray-800 border border-gray-700 px-4 py-2 text-left font-semibold text-gray-200;
+}
+
+.prose td {
+  @apply border border-gray-700 px-4 py-2 text-gray-200;
+}
+
+.prose hr {
+  @apply border-gray-700 my-6;
+}
