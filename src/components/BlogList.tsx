@@ -10,18 +10,15 @@ interface BlogListProps {
 export const BlogList: React.FC<BlogListProps> = ({ posts }) => {
   return (
     <div className="min-h-screen">
-      <div className="max-w-4xl mx-auto px-4 py-8">
-       
-          <div className="flex-col justify-center items-center gap-6 flex pb-10">
-                <div className="font-first text-xl md:text-4xl bg-gradient-to-r bg-clip-text  text-transparent 
+      <div className="max-w-4xl mx-auto px-5">
+        <div className="flex-col justify-center items-center gap-6 flex py-10">
+          <div className="font-first text-xl md:text-4xl bg-gradient-to-r bg-clip-text  text-transparent 
             from-[#FFFFFF]  via-[#CACACA] to-[#FFFFFF]
             animate-text tracking-tight">Blogs</div>
-                <div className="text-[#B3B3B3] text-lg text-center">
-                    Just me thinking out loud ~ in blog form.
-                </div>
-            </div>
-        
-
+          <div className="text-[#B3B3B3] text-lg text-center">
+            Just me thinking out loud ~ in blog form.
+          </div>
+        </div>
         <div className="space-y-8">
           {posts.map((post) => (
             <article key={post.slug} className="rounded-lg p-6 transition-shadow">
@@ -29,7 +26,7 @@ export const BlogList: React.FC<BlogListProps> = ({ posts }) => {
                 <h2 className="text-2xl font-semibold mb-3 text-gray-200 group-hover:text-[#ADFF2F] transition-colors">
                   {post.title}
                 </h2>
-                
+
                 <div className="flex items-center gap-4 text-gray-200 text-sm mb-3">
                   <div className="flex items-center gap-1">
                     <Calendar size={16} />
@@ -48,19 +45,19 @@ export const BlogList: React.FC<BlogListProps> = ({ posts }) => {
                     </div>
                   )}
                 </div>
-                
+
                 <p className="text-gray-200 mb-4 text-lg leading-relaxed">
                   {post.description}
                 </p>
-                
+
                 {post.tags && (
                   <div className="flex items-center gap-2">
                     <Tag size={16} className="text-gray-200" />
-                    <div className="flex gap-2">
+                    <div className="flex flex-wrap gap-2">
                       {post.tags.map((tag) => (
                         <span
                           key={tag}
-                          className="px-2 py-1 bg-gray-100 text-gray-800 rounded-md text-sm"
+                          className="px-2 py-1 bg-white text-gray-800 rounded-md text-sm text-nowrap"
                         >
                           {tag}
                         </span>
@@ -72,7 +69,7 @@ export const BlogList: React.FC<BlogListProps> = ({ posts }) => {
             </article>
           ))}
         </div>
-        
+
         {posts.length === 0 && (
           <div className="text-center py-12">
             <p className="text-gray-200 text-lg">No blog posts found.</p>

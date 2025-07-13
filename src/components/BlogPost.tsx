@@ -15,7 +15,7 @@ interface BlogPostProps {
 
 export const BlogPost: React.FC<BlogPostProps> = ({ children, frontmatter }) => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-black">
       <div className="max-w-4xl mx-auto px-4 py-8">
         {/* Back to blog button */}
         <Link 

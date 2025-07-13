@@ -12,7 +12,7 @@ interface TestimonialProps {
 }
 
 const testimonials: TestimonialProps[] = [
-  
+
 
   {
     image: "https://github.com/shadcn.png",
@@ -82,7 +82,7 @@ export const Milestones = () => {
             Thanks for being part of my journey—there's still a lot more to come!</div>
         </div>
       </div>
-      
+
       <hr className="border-dotted border-t-2 border-gray-400 my-20 w-5/12" />
       <section
         id="testimonials"
@@ -105,9 +105,9 @@ export const Milestones = () => {
                 <div className="pb-2 flex flex-row gap-1"><img src={star} /><img src={star} /><img src={star} /><img src={star} /><img src={star} /></div>
                 <div className="pb-2 font-[350]">{comment}</div>
                 <div className="flex flex-row justify-between items-center gap-4">
-                    <div className="text-lg p-0">{name}</div>
-                    <img src={userName} />
-                  </div>
+                  <div className="text-lg p-0">{name}</div>
+                  <img src={userName} />
+                </div>
               </div>
             )
           )}

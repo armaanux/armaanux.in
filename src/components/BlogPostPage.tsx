@@ -41,7 +41,7 @@ const BlogPostPage: React.FC = () => {
 
 // Loading skeleton component
 const LoadingSkeleton = () => (
-  <div className="min-h-screen">
+  <div className="min-h-screen bg-black">
     <div className="max-w-4xl mx-auto px-4 py-8">
       <Link 
         to="/blogs" 
