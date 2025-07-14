@@ -23,7 +23,7 @@ export const BlogList: React.FC<BlogListProps> = ({ posts }) => {
           {posts.map((post) => (
             <article key={post.slug} className="rounded-lg p-6 transition-shadow">
               <Link to={`/blogs/${post.slug}`} className="block group">
-                <h2 className="text-2xl font-semibold mb-3 text-gray-200 group-hover:text-[#ADFF2F] transition-colors">
+                <h2 className="text-xl md:text-2xl font-semibold mb-3 text-gray-200 group-hover:text-[#ADFF2F] transition-colors">
                   {post.title}
                 </h2>
 

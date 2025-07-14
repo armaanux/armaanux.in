@@ -44,7 +44,7 @@ export const Projects = () => {
   return (
     <section
       id="testimonials"
-      className="w-full px-5 md:px-20 space-y-12 container py-10 text-white"
+      className="w-full px-5 md:px-20 space-y-12  py-10 text-white"
     >
       <div className="flex-col justify-center items-center gap-6 flex pb-10">
         <div className="font-first text-xl md:text-4xl bg-gradient-to-r bg-clip-text  text-transparent 
